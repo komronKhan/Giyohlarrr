@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome v4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Fav icon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Fav/favicon-16x16.png" />
+    <!-- Bootstrap v5  Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!--  C S S -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Title -->
+    <title>Boltayev Asadbek</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="pre">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!--                                        NAVBAR START -->
+    <nav class="navbar navbar-light mb-4 bg-light text-light">
+        <div class="container ">
+            <a class="navbar-brand mx-auto d-flex align-items-center justify-content-center font-weight-bold fs-sm-5" id="logo_text" style="font-weight: 700;" href="index.html">
+                <img src="images/2022-10-17_16-52-45-removebg-preview (1).png" alt="" width="150" height="150" class="d-inline-block align-text-top " /> &ensp;
+                <h3>MUZRABOT TUMANI XALQ TABOBATI <br> DORIVOR GIYOHLAR VA MOYLAR</h3>
+            </a>
+        </div>
+    </nav>
+    <!--                                        NAVBAR END -->
+    <!--                                        HEADER  -->
+    <div class="container-fluid p-5">
+        <div class="row justify-content-xl-around justify-content-lg-around justify-content-md-between justify-content-sm-center m-sm-0">
+            <!-- 1 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-regular fa-leaf-heart"></i></i> Kontepar </h5>
+                    <p class="card-text text-justify">
+                        Konteper quyidagi kasalliklarni davolaydi: Qon bosimi, kam qonli va imunitetni oshiruvchi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> El Bahosi </h5>
+                    <p class="card-text text-justify">
+                        El Bahosi quyidagi kasalliklarni davolaydi: Qorin dam bo'lganda, ichak yo'llari shamollaganda, ich ketganda va prostata bezi shamollashini davolaydi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Gazanda Chayono't </h5>
+                    <p class="card-text text-justify">
+                        Gazanda Chayono't quyidagi kasalliklarni davolaydi: Sepkil va teridagi dog'larni davolaydi, qontalashni ketkazadi, har qanday yaralarni davolaydi, asma va o'pka bronxit kasalliklarni ko'chiradi. Buyrakni tozalaydi. Xomilador ayollar ishlatishi man qilinadi!
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Igray </h5>
+                    <p class="card-text text-justify">
+                        Igray quyidagi kasalliklarni davolaydi: Buyrak, o't, qovuq shamollaganda, tomir tortilganda hamda buyrak, o't, qovuq toshlarini tushuradi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- *********************************************** -->
+            <!-- 1 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Kiyik o't </h5>
+                    <p class="card-text text-justify">
+                        Asab kasalligi, qon bosimi, ko'z qizarishi hamda miya tomirlar torayishini davolaydi
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Qora Andish </h5>
+                    <p class="card-text text-justify">
+                        Qora Andish tomiri quyidagi kasalliklarni davolaydi: Yurakni kuchaytiradi, tanani baquvvat qiladi, balg'am ko'chiruvchi, peshob xaydovchi, isitna tushuruvchi, nafas yo'llari shamollashi, o'pka sili, qo'tir va yaralarda, reamtizim bo'g'in og'riqlarida
+                        hamda yoshartiradi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Shirin Miya </h5>
+                    <p class="card-text text-justify">
+                        Qora Andish tomiri quyidagi kasalliklarni davolaydi: Shirin miya tomiri nafas qisishi, achitma, o'pka kasalligi, qon tozalovchi, qon ko'paytiruvchi hamda ko'k yo'tal, balg'am ko'chiruvchi hamda quruq yo'talni davolaydi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Shunbula </h5>
+                    <p class="card-text text-justify">
+                        Shunbula quyidagi kasalliklarni davolaydi: O'pkani tozalashga, oshqozon va jigar tiqilmalarini ochadi, oqadigan yaralar, miyani nihoyatda baquvvat qiladi, hamda erkaklik quvvatini oshiradi, saqriq kasalligi davolaydi, peshob haydaydi hamda bachadon shishishlarini
+                        ketkazadi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- *********************************************** -->
+            <!-- 1 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Ro'yan Ildizi </h5>
+                    <p class="card-text text-justify">
+                        Ro'yan Ildizi quyidagi kasalliklarni davolaydi: Buyrak, o't, qovuq, shamollaganda hamda og'riq paydo bo'lganda va buyrak, o't, qovuqdagi tosh va tuzlarni tushurishga yordam beradi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Tulki Mayak </h5>
+                    <p class="card-text text-justify">
+                        Tulki Mayak quyidagi kasalliklarni davolaydi: Prostata bezi shamollaganda, bachadon kasalligi hamda bo'g'in og'riqlarini davolaydi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://guardian.ng/wp-content/uploads/2016/10/Herbal-Medicine-MX-680x340-1440545288.jpg" class="card-img-top" alt="O'yinchoq qo'l mehnati" />
+                <div class="card-body">
+                    <h5 class="card-title fs-4" style="font-weight: 700;">
+                        <i class="fa-sharp fa-solid fa-seedling"></i> Bo'yimodaron </h5>
+                    <p class="card-text text-justify">
+                        Bo'yimodaron gulini qaynatib ichilsa quyidagi kasalliklarni davolaydi: Nafas qisma, soch to'kilishi, buyrak shamollashi va buyrak toshini va xaiz qonini xaydaydi.
+                    </p>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <span class="modal-body">
+										<form action="#" class="mb-3">
+											<input
+												class="mb-3 form-control"
+												type="text"
+												minlength="3"
+												maxlength="25"
+												placeholder="Ismingizni kiriting"
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control"
+												id="phone"
+												name="phone"
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting"
+												minlength="9"
+												maxlength="12"
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto">
+											<ul class="list-inline pb-3">
+												<li class="list-inline-item text-right">
+													Soni
+													<input
+														type="hidden"
+														name="product-quanity"
+														id="product-quanity"
+														value="1"
+													/>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-minus"
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary" id="var-value"
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item">
+													<span class="btn btn-success" id="btn-plus"
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button" class="btn btn-success">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <!--  -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://mbaza.uz/wp-content/uploads/2022/08/bodomning-oziga-xos-foydali-xususiyatlari.jpeg" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Achchiq bodom Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Qattiq shamollash, yo'tal, balg'am ko'chiruvchi, og'riq qoldiruvchi, sepkil va dog', husunbuzar va soch to'kilishiga davo.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+							<form action="# " class="mb-3 ">
+								<input
+									class="mb-3 form-control "
+									type="text "
+									minlength="3 "
+									maxlength="25 "
+									placeholder="Ismingizni kiriting "
+									required
+								/>
+								<br />
+								<input
+									type="tel "
+									class="form-control "
+									id="phone "
+									name="phone "
+									required
+									placeholder="998-99-888-77-66 "
+									title="Telefon raqamingizni kiriting "
+									minlength="9 "
+									maxlength="12 "
+								/>
+							</form>
+							<!-- soni -->
+							<div class="col-auto ">
+								<ul class="list-inline pb-3 ">
+									<li class="list-inline-item text-right ">
+										Soni
+										<input
+											type="hidden "
+											name="product-quanity "
+											id="product-quanity "
+											value="1 "
+										/>
+									</li>
+									<li class="list-inline-item ">
+										<span class="btn btn-success " id="btn-minus "
+											>-</span
+										>
+									</li>
+									<li class="list-inline-item ">
+										<span class="badge bg-secondary " id="var-value "
+											>1</span
+										>
+									</li>
+									<li class="list-inline-item ">
+										<span class="btn btn-success " id="btn-plus "
+											>+</span
+										>
+									</li>
+								</ul>
+							</div>
+							<button type="button " class="btn btn-success ">
+								YUBORISH
+							</button>
+						</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- *********************************************** -->
+            <!-- 1 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://images.pexels.com/photos/39310/wolf-predator-hunter-canis-lupus-39310.jpeg?cs=srgb&dl=pexels-pixabay-39310.jpg&fm=jpg" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Bo'ri Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Tomir tortilishi, sanchiq, shamollash, rematizim va bo'g'in og'riqlarini davolaydi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://www.worldatlas.com/r/w1200/upload/8e/4f/b5/shutterstock-778445515.jpg" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Echkamar Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Trapabez shamollashiga, quviq shamollashiga, oyoq rematizimiga, bel og'rig'iga, grija shamollashlariga davo bo'ladi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://images.pexels.com/photos/2649841/pexels-photo-2649841.jpeg?cs=srgb&dl=pexels-jose-almeida-2649841.jpg&fm=jpg" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Yo'lbars Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Qattiq shamollash, yo'tal, tomir tortilish, rematizim, bo'g'in og'rig'i hamda tanadagi tuz va toshlarni tushuradi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://media.istockphoto.com/photos/big-pig-vaccination-isolated-on-white-picture-id1088934170?k=20&m=1088934170&s=612x612&w=0&h=9dGPffwATz1HZ-rtyRpWtd-EOMEyz_hy7rW0DD1xm2c=" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Cho'chqa Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Qattiq shamollash, oyoq, bel, bo'g'in og'rig'i, rematizim va umurtqa pog'onasi shamollashini oladi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- *********************************************** -->
+            <!-- 1 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://www.cavalluna.com/fileadmin/og-images/Pferderassen/og-image-american-quarter-horse-1200x630.png" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Ot Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Oyoq o'rig'i, Bel, Quvuq yallig'lanishi va bachadon shamollashini davolaydi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://storage.kun.uz/source/uploads/20190104/87108718409.jpg" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Sug'ur Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Qattiq shamollash, yo'tal, tomir tortilish, rematizim, bo'g'in og'rig'i, tanadagi tuz va toshni tushuradi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://media.istockphoto.com/photos/eastern-brown-snake-picture-id480409931?k=20&m=480409931&s=612x612&w=0&h=2_bTli1kD_idqjMxepILXdZQPgokM93k1t50P2pvmu0=" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Ilon Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Og'riq qoldiruvchi, tomir tortilishi, sanchiq, tanadagi kuygan joy va gijja tushuruvchi, tanadagi tuzni yo'qotuvchi xususiyatga ega.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://www.pngitem.com/pimgs/m/41-411848_german-shepherd-dog-png-image-dog-images-hd.png" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> It Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Og'riq qoldiruvchi, yo'tal, tomir tortilishi, reamtizim, bo'g'in og'rig'i, tanadagi tuzni yo'qotadi, quvuq shamollashini davolaydi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- *********************************************** -->
+            <div class="col-xl-3 justify-content-xl-around col-lg-4 justify-content-lg-around  col-md-4 col-sm-12 col-12 justify-content-sm-center p-2 text-center mx-xl-2 mx-lg-2 mx-md-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bear_IMG_9013.JPG/1280px-Bear_IMG_9013.JPG" class="card-img-top " alt="O 'yinchoq qo'l mehnati " />
+                <div class="card-body ">
+                    <h5 class="card-title fs-4 " style="font-weight: 700; ">
+                        <i class="fa-sharp fa-solid fa-seedling "></i> Ayiq Yog'i </h5>
+                    <p class="card-text text-justify ">
+                        Qattiq shamollash, oyoq, bel, bo'g'in og'rig'i, rematizim va tanadagi tuzni yo'qotadi.
+                    </p>
+                    <div class="icons ">
+                        <a href=" "><i class="fa fa-telegram " aria-hidden="true "></i></a><br>
+                    </div>
+                    <b class="card-text m-2 d-inline-block fs-5 ">Telefon raqami: <br> +998-(88)-845-30-31</b> <br />
+                    <!-- Modal -->
+                    <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                        <ul class="modal-dialog ">
+                            <div class="modal-content ">
+                                <div class="modal-header ">
+                                    <h5 class="modal-title " id="exampleModalLabel ">
+                                        Mahsulotga buyurtma berish
+                                    </h5>
+                                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                </div>
+                                <span class="modal-body ">
+										<form action="# " class="mb-3 ">
+											<input
+												class="mb-3 form-control "
+												type="text "
+												minlength="3 "
+												maxlength="25 "
+												placeholder="Ismingizni kiriting "
+												required
+											/>
+											<br />
+											<input
+												type="tel "
+												class="form-control "
+												id="phone "
+												name="phone "
+												required
+												placeholder="998-99-888-77-66 "
+												title="Telefon raqamingizni kiriting "
+												minlength="9 "
+												maxlength="12 "
+											/>
+										</form>
+										<!-- soni -->
+										<div class="col-auto ">
+											<ul class="list-inline pb-3 ">
+												<li class="list-inline-item text-right ">
+													Soni
+													<input
+														type="hidden "
+														name="product-quanity "
+														id="product-quanity "
+														value="1 "
+													/>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-minus "
+														>-</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="badge bg-secondary " id="var-value "
+														>1</span
+													>
+												</li>
+												<li class="list-inline-item ">
+													<span class="btn btn-success " id="btn-plus "
+														>+</span
+													>
+												</li>
+											</ul>
+										</div>
+										<button type="button " class="btn btn-success ">
+											YUBORISH
+										</button>
+									</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- ******************************************************************* -->
+            <!--                                                        ROW END -->
+
+        </div>
+
+        <!--                                        HEADER END -->
+        <!-- scrip js Bootstrap v5 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+        <!-- Jquery -->
+        <script src="js/Jquery.js "></script>
+        <script src="js/Jquerys.js "></script>
+        <!-- script js -->
+        <script src="js/script.js "></script>
+</body>
+
+</html>
+
+</html>

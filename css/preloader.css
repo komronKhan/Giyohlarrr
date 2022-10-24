@@ -1,0 +1,87 @@
+.loader-hide {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.loader {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    animation: shadow 2s linear infinite;
+    background-color: transparent;
+    letter-spacing: 5px;
+}
+
+.loader span:nth-child(1) {
+    border-radius: 34% 66% 65% 34% / 35% 32% 68% 65%;
+    border: 5px solid gold;
+}
+
+.loader span:nth-child(2) {
+    animation-direction: reverse;
+    border-radius: 73% 27% 53% 47% / 44% 56% 44% 56%;
+    border: 5px solid chartreuse;
+}
+
+.loader span:nth-child(3) {
+    animation-duration: 3s;
+    border-radius: 66% 34% 72% 28% / 45% 67% 33% 55%;
+    border: 5px solid royalblue;
+}
+
+.loader span:nth-child(4) {
+    animation-direction: reverse;
+    border-radius: 41% 59% 49% 51% / 62% 36% 64% 38%;
+    border: 5px solid crimson;
+}
+
+.loader span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    pointer-events: none;
+    animation: animate 5s linear infinite;
+}
+
+
+/* loading animation */
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*  h2 animation */
+
+@keyframes shadow {
+    0% {
+        text-shadow: rgba(240, 46, 46, 0.4) -5px 5px, rgba(248, 0, 0, 0.548) -10px 10px, rgba(231, 0, 0, 0.2) -15px 15px, rgba(255, 0, 0, 0.397) -20px 20px, rgb(0, 0, 0) -55px 25px 5px;
+    }
+}
